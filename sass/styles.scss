@@ -273,13 +273,13 @@
 
 .content {
 	display: flex;
-	&:last-child {
-		margin: 0 !important;
-	}
 	.articles {
 		width: 34%;
 		margin: 1em 1em 0 0;
-		height: 200px;
+		height: 300px;
+		&:last-child {
+		margin-right: 0;
+		}
 	}
 }
 .first {

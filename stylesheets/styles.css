@@ -383,14 +383,14 @@ a {
   display: flex;
 }
 /* line 276, ../sass/styles.scss */
-.content:last-child {
-  margin: 0 !important;
-}
-/* line 279, ../sass/styles.scss */
 .content .articles {
   width: 34%;
   margin: 1em 1em 0 0;
-  height: 200px;
+  height: 300px;
+}
+/* line 280, ../sass/styles.scss */
+.content .articles:last-child {
+  margin-right: 0;
 }
 
 /* line 285, ../sass/styles.scss */
