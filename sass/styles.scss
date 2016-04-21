@@ -1,0 +1,270 @@
+@import "compass";
+@import "compass/reset";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/base";
+
+
+	/*	Header navigation	*/
+	/*		 				*/
+
+#logo {
+	display: inline-block;
+	width: 100%;
+	background: $dark-grey;
+	position: relative;
+	color: white;
+	overflow: hidden;
+	p {
+		display: block;
+		font-size: 3.4em;
+		left: .36em;
+		margin:0 auto;
+		position: absolute;
+		top: .6em;
+		z-index: 2;
+		opacity: .8;
+		cursor: pointer;
+		font-weight: 900;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.triangle {
+		position: absolute;
+		left: 5px;
+		top: 5px;
+		width: 0;
+		height: 0;
+		border-top: 2.6em solid transparent;
+		border-left: 5.6em solid $orange;
+		border-bottom: 2.6em solid transparent;}
+	h1 {
+		font-size: 1em;
+		padding: 2.4em 0 2.2em 6.3em;
+		color:white;
+		letter-spacing: .25em;
+		.inc{
+			color: $orange;
+		}
+		.deliver {
+			display: inline-block;
+			width: 50%;
+			font-size: 1.4em;
+			font-weight: 700;
+			text-align: right;
+			letter-spacing: .1em;
+			color: $bg-color;
+		}
+	} 
+	&:before {
+		content: "";
+		background:$orange;
+		display: block;
+		width: 5em;
+		height: 100%;
+		position: absolute;
+		}
+}
+
+#nav {
+	position: relative;
+}
+
+.topMenu {
+	position: relative;
+	background: $grey;
+	&:first-child {
+		padding-left: 5.5em;
+	}
+	li {
+		position: relative;
+		display: inline-block;
+		padding: 1.4em 2.2em 1.4em 0;
+		&:after {
+			content:"";
+			position: absolute;
+			right: 15px;
+			top: 20px;
+			height: 20px;
+			width: 1px;
+			background: $light-grey;
+			}
+		a {
+			color: white;
+			&:hover {
+			border-bottom: 5px solid $orange;
+			padding-bottom: 1em;
+			}
+		}
+	}	
+}
+
+.topMenu2 {
+	position: absolute;
+	background: $grey;
+	right: 0px;
+	top: 0px;
+	&:last-child {
+		padding-right: 2em;
+	}
+	li {
+		position: relative;
+		display: inline-block;
+		padding: 1.4em 3.2em 1.4em 0;
+		&:after {
+			content:"";
+			position: absolute;
+			right: 15px;
+			top: 20px;
+			height: 20px;
+			width: 1px;
+			background: $light-grey;
+			}
+		a {
+			color: white;
+			&:hover {
+			color: $text-grey;
+		}
+		}
+	}
+}
+
+.separate1 {
+	position: absolute;
+	right: 25px;
+	top: 22px;
+}
+.separate2 {
+	position: absolute;
+	right: 27px;
+	top: 24px;
+}
+
+				/*search form*/
+
+#searchForm {
+	position: relative;
+	margin: 20px 0;
+	width: 50%;
+	.searchText {
+		-webkit-appearance: none;
+		background-image:url(images/search.gif);
+		background-position:360px;
+		background-repeat:no-repeat;
+		border:1px solid $text-grey;
+		box-sizing: content-box;
+		height:25px;
+		outline: none;
+		text-indent: 20px;
+		width: 20em;
+		
+	}
+	.arrowSearch {
+		position: absolute;
+		width: 1.75em;
+		height: 1.75em;
+		padding-left: .3em;
+		border-left: 1px solid $light-grey;
+		top: 3px;
+		left: 17.8em;
+		outline: none;
+		}
+}
+
+
+
+			/*twitter facebook etc*/
+.search {
+	position: relative;
+	overflow: hidden;
+	.share {
+		position: absolute;
+		right: 1em;
+		top: 10px;
+		li {
+			display: inline-block;
+			padding: 0 3.2em 0 0;
+			font-size: .7em;
+			a{
+				color: $light-grey;
+			}
+			.twit {
+				margin-right: 5px;
+				margin-top: 1.5em;
+			}
+		}
+	}
+}
+
+
+
+						/*	Features Section 	*/
+						/*						*/
+
+.features {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	}
+.picWrap {
+	position: relative;
+	background-image: url(images/orange.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 70%;
+	height: 100%;
+	border-right: 15px solid $orange;
+		.triangle {
+		position: absolute;
+		right: -23px;
+		top: 104px;
+		width: 0;
+		height: 0;
+		border-top: .7em solid transparent;
+		border-left: .6em solid $orange;
+		border-bottom: .7em solid transparent;
+		}
+		
+	a {
+		position: absolute;
+		display: block;
+		color: white;
+		width: 25%;
+		font-weight: 100;
+		font-size: .8em;
+		border: 1px solid $dark-grey;
+		padding: 1em .5em 1em .7em;
+		line-height: 2em;
+		opacity: .8;
+		margin: 2em 0 0 2em;
+		transition: all .3s ease-in-out;
+		border-radius: 3px;
+		&:hover {
+			opacity: 1;
+			background-color: $dark-grey;
+		}
+	}
+}
+
+.mainText {
+	width: 30%;
+	background: $dark-grey;
+	color: $text-grey;
+	line-height: 1.4em;
+	h2 {
+		color: white;
+		font-size: 1.3em;
+		padding: 5em 0 3em .4em;
+		text-align: center;
+		width: 90%;
+	}
+	p {
+		padding: 0 2em;
+		text-align: center;
+	}
+	
+}
+.cite{
+	margin-top: 3em;
+}
