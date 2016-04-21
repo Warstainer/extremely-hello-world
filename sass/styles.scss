@@ -268,3 +268,30 @@
 .cite{
 	margin-top: 3em;
 }
+
+					/*content section*/
+
+.content {
+	display: flex;
+	&:last-child {
+		margin: 0 !important;
+	}
+	.articles {
+		width: 34%;
+		margin: 1em 1em 0 0;
+		height: 200px;
+	}
+}
+.first {
+	background: url(images/balloon.jpg) center no-repeat;
+	background-size: cover;
+}
+.second {
+	background: url(images/lego.jpg) center no-repeat;
+	background-size: cover;
+}
+.third {
+	background: url(images/lake.jpg) center no-repeat;
+	background-size: cover;
+	margin-right: 0;
+}
