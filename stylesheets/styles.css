@@ -1,0 +1,378 @@
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/partials/_base.scss */
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  background: #ebebeb;
+}
+
+/* line 10, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/*	Header navigation	*/
+/*		 				*/
+/* line 11, ../sass/styles.scss */
+#logo {
+  display: inline-block;
+  width: 100%;
+  background: #373737;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+/* line 18, ../sass/styles.scss */
+#logo p {
+  display: block;
+  font-size: 3.4em;
+  left: .36em;
+  margin: 0 auto;
+  position: absolute;
+  top: .6em;
+  z-index: 2;
+  opacity: .8;
+  cursor: pointer;
+  font-weight: 900;
+}
+/* line 29, ../sass/styles.scss */
+#logo p:hover {
+  opacity: 1;
+}
+/* line 33, ../sass/styles.scss */
+#logo .triangle {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-top: 2.6em solid transparent;
+  border-left: 5.6em solid #f26c4f;
+  border-bottom: 2.6em solid transparent;
+}
+/* line 42, ../sass/styles.scss */
+#logo h1 {
+  font-size: 1em;
+  padding: 2.4em 0 2.2em 6.3em;
+  color: white;
+  letter-spacing: .25em;
+}
+/* line 47, ../sass/styles.scss */
+#logo h1 .inc {
+  color: #f26c4f;
+}
+/* line 50, ../sass/styles.scss */
+#logo h1 .deliver {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: right;
+  letter-spacing: .1em;
+  color: #ebebeb;
+}
+/* line 60, ../sass/styles.scss */
+#logo:before {
+  content: "";
+  background: #f26c4f;
+  display: block;
+  width: 5em;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 70, ../sass/styles.scss */
+#nav {
+  position: relative;
+}
+
+/* line 74, ../sass/styles.scss */
+.topMenu {
+  position: relative;
+  background: #474747;
+}
+/* line 77, ../sass/styles.scss */
+.topMenu:first-child {
+  padding-left: 5.5em;
+}
+/* line 80, ../sass/styles.scss */
+.topMenu li {
+  position: relative;
+  display: inline-block;
+  padding: 1.4em 2.2em 1.4em 0;
+}
+/* line 84, ../sass/styles.scss */
+.topMenu li:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  height: 20px;
+  width: 1px;
+  background: #767676;
+}
+/* line 93, ../sass/styles.scss */
+.topMenu li a {
+  color: white;
+}
+/* line 95, ../sass/styles.scss */
+.topMenu li a:hover {
+  border-bottom: 5px solid #f26c4f;
+  padding-bottom: 1em;
+}
+
+/* line 103, ../sass/styles.scss */
+.topMenu2 {
+  position: absolute;
+  background: #474747;
+  right: 0px;
+  top: 0px;
+}
+/* line 108, ../sass/styles.scss */
+.topMenu2:last-child {
+  padding-right: 2em;
+}
+/* line 111, ../sass/styles.scss */
+.topMenu2 li {
+  position: relative;
+  display: inline-block;
+  padding: 1.4em 3.2em 1.4em 0;
+}
+/* line 115, ../sass/styles.scss */
+.topMenu2 li:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  height: 20px;
+  width: 1px;
+  background: #767676;
+}
+/* line 124, ../sass/styles.scss */
+.topMenu2 li a {
+  color: white;
+}
+/* line 126, ../sass/styles.scss */
+.topMenu2 li a:hover {
+  color: #c0c0c0;
+}
+
+/* line 133, ../sass/styles.scss */
+.separate1 {
+  position: absolute;
+  right: 25px;
+  top: 22px;
+}
+
+/* line 138, ../sass/styles.scss */
+.separate2 {
+  position: absolute;
+  right: 27px;
+  top: 24px;
+}
+
+/*search form*/
+/* line 146, ../sass/styles.scss */
+#searchForm {
+  position: relative;
+  margin: 20px 0;
+  width: 50%;
+}
+/* line 150, ../sass/styles.scss */
+#searchForm .searchText {
+  -webkit-appearance: none;
+  background-image: url(images/search.gif);
+  background-position: 360px;
+  background-repeat: no-repeat;
+  border: 1px solid #c0c0c0;
+  box-sizing: content-box;
+  height: 25px;
+  outline: none;
+  text-indent: 20px;
+  width: 20em;
+}
+/* line 163, ../sass/styles.scss */
+#searchForm .arrowSearch {
+  position: absolute;
+  width: 1.75em;
+  height: 1.75em;
+  padding-left: .3em;
+  border-left: 1px solid #767676;
+  top: 3px;
+  left: 17.8em;
+  outline: none;
+}
+
+/*twitter facebook etc*/
+/* line 178, ../sass/styles.scss */
+.search {
+  position: relative;
+  overflow: hidden;
+}
+/* line 181, ../sass/styles.scss */
+.search .share {
+  position: absolute;
+  right: 1em;
+  top: 10px;
+}
+/* line 185, ../sass/styles.scss */
+.search .share li {
+  display: inline-block;
+  padding: 0 3.2em 0 0;
+  font-size: .7em;
+}
+/* line 189, ../sass/styles.scss */
+.search .share li a {
+  color: #767676;
+}
+/* line 192, ../sass/styles.scss */
+.search .share li .twit {
+  margin-right: 5px;
+  margin-top: 1.5em;
+}
+
+/*	Features Section 	*/
+/*						*/
+/* line 205, ../sass/styles.scss */
+.features {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+/* line 210, ../sass/styles.scss */
+.picWrap {
+  position: relative;
+  background-image: url(images/orange.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  height: 100%;
+  border-right: 15px solid #f26c4f;
+}
+/* line 218, ../sass/styles.scss */
+.picWrap .triangle {
+  position: absolute;
+  right: -23px;
+  top: 104px;
+  width: 0;
+  height: 0;
+  border-top: .7em solid transparent;
+  border-left: 0.6em solid #f26c4f;
+  border-bottom: .7em solid transparent;
+}
+/* line 229, ../sass/styles.scss */
+.picWrap a {
+  position: absolute;
+  display: block;
+  color: white;
+  width: 25%;
+  font-weight: 100;
+  font-size: .8em;
+  border: 1px solid #373737;
+  padding: 1em .5em 1em .7em;
+  line-height: 2em;
+  opacity: .8;
+  margin: 2em 0 0 2em;
+  transition: all .3s ease-in-out;
+  border-radius: 3px;
+}
+/* line 243, ../sass/styles.scss */
+.picWrap a:hover {
+  opacity: 1;
+  background-color: #373737;
+}
+
+/* line 250, ../sass/styles.scss */
+.mainText {
+  width: 30%;
+  background: #373737;
+  color: #c0c0c0;
+  line-height: 1.4em;
+}
+/* line 255, ../sass/styles.scss */
+.mainText h2 {
+  color: white;
+  font-size: 1.3em;
+  padding: 5em 0 3em .4em;
+  text-align: center;
+  width: 90%;
+}
+/* line 262, ../sass/styles.scss */
+.mainText p {
+  padding: 0 2em;
+  text-align: center;
+}
+
+/* line 268, ../sass/styles.scss */
+.cite {
+  margin-top: 3em;
+}
