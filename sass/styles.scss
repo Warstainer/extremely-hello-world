@@ -273,6 +273,7 @@
 
 .content {
 	display: flex;
+	content-wrap: wrap;
 	.articles {
 		width: 34%;
 		margin: 1em 1em 0 0;
@@ -293,5 +294,4 @@
 .third {
 	background: url(images/lake.jpg) center no-repeat;
 	background-size: cover;
-	margin-right: 0;
 }

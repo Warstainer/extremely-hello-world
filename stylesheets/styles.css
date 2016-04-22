@@ -381,33 +381,33 @@ a {
 /* line 274, ../sass/styles.scss */
 .content {
   display: flex;
+  content-wrap: wrap;
 }
-/* line 276, ../sass/styles.scss */
+/* line 277, ../sass/styles.scss */
 .content .articles {
   width: 34%;
   margin: 1em 1em 0 0;
   height: 300px;
 }
-/* line 280, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .content .articles:last-child {
   margin-right: 0;
 }
 
-/* line 285, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .first {
   background: url(images/balloon.jpg) center no-repeat;
   background-size: cover;
 }
 
-/* line 289, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 .second {
   background: url(images/lego.jpg) center no-repeat;
   background-size: cover;
 }
 
-/* line 293, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 .third {
   background: url(images/lake.jpg) center no-repeat;
   background-size: cover;
-  margin-right: 0;
 }
