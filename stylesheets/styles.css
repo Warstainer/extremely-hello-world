@@ -322,7 +322,7 @@ a {
 .picWrap .triangle {
   position: absolute;
   right: -23px;
-  top: 104px;
+  top: 63px;
   width: 0;
   height: 0;
   border-top: .7em solid transparent;
@@ -357,57 +357,94 @@ a {
   background: #373737;
   color: #c0c0c0;
   line-height: 1.4em;
+  display: flex;
+  flex-wrap: wrap;
 }
-/* line 255, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
+.mainText .learnMore {
+  margin: 0 auto;
+  outline: none;
+  width: 10em;
+  height: 3em;
+  background: #000000;
+  border-radius: 2em;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+/* line 268, ../sass/styles.scss */
+.mainText .learnMore:hover {
+  background: #474747;
+  color: #f26c4f;
+}
+/* line 274, ../sass/styles.scss */
 .mainText h2 {
   color: white;
   font-size: 1.3em;
-  padding: 5em 0 3em .4em;
+  padding: 3em 0 1em .4em;
   text-align: center;
   width: 90%;
 }
-/* line 262, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 .mainText p {
   padding: 0 2em;
   text-align: center;
 }
 
-/* line 268, ../sass/styles.scss */
+/* line 287, ../sass/styles.scss */
 .cite {
-  margin-top: 3em;
+  margin-top: .5em;
 }
 
 /*content section*/
-/* line 274, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 .content {
   display: flex;
-  content-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 450px;
 }
-/* line 277, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
+.content p {
+  display: block;
+  width: 33%;
+  height: 150px;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 1em;
+  background: white;
+  line-height: 2em;
+  color: #c0c0c0;
+}
+/* line 309, ../sass/styles.scss */
 .content .articles {
-  width: 34%;
-  margin: 1em 1em 0 0;
+  width: 33%;
+  margin-top: 1em;
   height: 300px;
 }
-/* line 281, ../sass/styles.scss */
-.content .articles:last-child {
-  margin-right: 0;
-}
 
-/* line 286, ../sass/styles.scss */
+/* line 315, ../sass/styles.scss */
 .first {
   background: url(images/balloon.jpg) center no-repeat;
   background-size: cover;
 }
 
-/* line 290, ../sass/styles.scss */
+/* line 319, ../sass/styles.scss */
 .second {
   background: url(images/lego.jpg) center no-repeat;
   background-size: cover;
 }
 
-/* line 294, ../sass/styles.scss */
+/* line 323, ../sass/styles.scss */
 .third {
   background: url(images/lake.jpg) center no-repeat;
   background-size: cover;
+}
+
+/* line 328, ../sass/styles.scss */
+.headline {
+  font-weight: 700;
+  font-size: 1.3em;
+  color: black;
 }
