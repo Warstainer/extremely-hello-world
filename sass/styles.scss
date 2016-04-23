@@ -11,6 +11,7 @@
 #logo {
 	display: inline-block;
 	width: 100%;
+	min-width: 920px;
 	background: $dark-grey;
 	position: relative;
 	color: white;
@@ -55,6 +56,7 @@
 			text-align: right;
 			letter-spacing: .1em;
 			color: $bg-color;
+			text-transform: uppercase;
 		}
 	} 
 	&:before {
@@ -69,6 +71,7 @@
 
 #nav {
 	position: relative;
+	min-width: 920px;
 }
 
 .topMenu {
@@ -147,6 +150,7 @@
 	position: relative;
 	margin: 20px 0;
 	width: 50%;
+
 	.searchText {
 		-webkit-appearance: none;
 		background-image:url(images/search.gif);
@@ -178,6 +182,7 @@
 .search {
 	position: relative;
 	overflow: hidden;
+	min-width: 760px;
 	.share {
 		position: absolute;
 		right: 1em;
@@ -203,8 +208,9 @@
 						/*						*/
 
 .features {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	width: 100%;
 	height: 500px;
 	}
 .picWrap {
@@ -213,6 +219,7 @@
 	background-position: center;
 	background-size: cover;
 	width: 70%;
+	min-width: 510px;
 	height: 100%;
 	border-right: 15px solid $orange;
 		.triangle {
@@ -231,6 +238,7 @@
 		display: block;
 		color: white;
 		width: 25%;
+		min-width: 200px;
 		font-weight: 100;
 		font-size: .8em;
 		border: 1px solid $dark-grey;
@@ -242,18 +250,23 @@
 		border-radius: 3px;
 		&:hover {
 			opacity: 1;
-			background-color: $dark-grey;
+			background-color: $dark-grey;}
 		}
 	}
-}
+
 
 .mainText {
 	width: 30%;
 	background: $dark-grey;
 	color: $text-grey;
 	line-height: 1.4em;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	min-width: 250px;
 			.learnMore {
 			margin: 0 auto;
 			outline: none;
@@ -289,21 +302,29 @@
 }
 
 					/*content section*/
+					/*text*/
 
 .content {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
-	height: 450px;
+	height: 500px;
+	min-width: 778px;
 	p {
 		display: block;
 		width: 33%;
-		height: 150px;
+		height: 200px;
 		margin-top: 0;
 		text-align: center;
 		padding-top: 1em;
 		background: white;
-		line-height: 2em;
+		line-height: 1.5em;
 		color: $text-grey;
 	}
 	.articles {
@@ -312,17 +333,99 @@
 		height: 300px;
 		}
 }
+
+
+		/*content pictures*/
+
 .first {
 	background: url(images/balloon.jpg) center no-repeat;
 	background-size: cover;
-}
+	position: relative;
+	.triangle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		border-top: 5.7em solid $salmon;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .9;
+		transition: all .25s ease-in-out;
+		&:hover {
+		border-top: 5.7em solid $black;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .6;
+		}
+		.plus {
+			position: absolute;
+			width: 33px;
+			height: 33px;
+			right: 7px;
+			top: -80px;
+			}
+		}
+	}
 .second {
 	background: url(images/lego.jpg) center no-repeat;
 	background-size: cover;
+	position: relative;
+	.triangle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		border-top: 5.7em solid $dark-grey;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .9;
+		transition: all .25s ease-in-out;
+		&:hover {
+		border-top: 5.7em solid $black;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .6;
+		}
+		.plus {
+			position: absolute;
+			width: 33px;
+			height: 33px;
+			right: 7px;
+			top: -80px;
+			}
+		}
 }
 .third {
 	background: url(images/lake.jpg) center no-repeat;
 	background-size: cover;
+	position: relative;
+	.triangle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		border-top: 5.7em solid mediumaquamarine;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .9;
+		transition: all .25s ease-in-out;
+		&:hover {
+		border-top: 5.7em solid $black;
+		border-left: 5em solid transparent;
+		border-bottom: 1em solid transparent;
+		opacity: .6;
+		}
+		.plus {
+			position: absolute;
+			width: 33px;
+			height: 33px;
+			right: 7px;
+			top: -80px;
+			}
+		}
 }
 
 .headline {
@@ -330,3 +433,4 @@
 	font-size: 1.3em;
 	color: black;
 }
+
