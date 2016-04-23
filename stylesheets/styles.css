@@ -64,6 +64,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/partials/_base.scss */
+html {
+  width: 100%;
+}
+
+/* line 4, ../sass/partials/_base.scss */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 1em;
@@ -74,7 +79,7 @@ body {
   background: #ebebeb;
 }
 
-/* line 10, ../sass/partials/_base.scss */
+/* line 13, ../sass/partials/_base.scss */
 a {
   text-decoration: none;
 }
@@ -558,33 +563,41 @@ a {
 }
 
 /*News and Articles*/
-/* line 439, ../sass/styles.scss */
+/* line 438, ../sass/styles.scss */
+.news_and_articles {
+  margin-right: 0;
+  min-width: 650px;
+}
+
+/* line 442, ../sass/styles.scss */
 .articles_column {
-  width: 62%;
+  width: 65%;
   display: block;
   height: 100%;
 }
-/* line 443, ../sass/styles.scss */
+/* line 446, ../sass/styles.scss */
 .articles_column:first-child {
   margin-top: -1em;
 }
-/* line 446, ../sass/styles.scss */
+/* line 449, ../sass/styles.scss */
 .articles_column .articles {
   display: block;
   width: 100%;
-  height: 100px;
+  height: 120px;
   background: white;
   margin: 1em 0 1em 0;
   overflow: hidden;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
 }
-/* line 454, ../sass/styles.scss */
+/* line 458, ../sass/styles.scss */
 .articles_column .articles:hover {
   background: #f26c4f;
   color: white;
   height: 175px;
+  border-right: 5px solid #373737;
 }
-/* line 459, ../sass/styles.scss */
+/* line 464, ../sass/styles.scss */
 .articles_column .articles p {
   display: block;
   color: white;
@@ -593,29 +606,33 @@ a {
   width: 80%;
   height: 100%;
 }
-/* line 467, ../sass/styles.scss */
+/* line 472, ../sass/styles.scss */
+.articles_column .articles ul {
+  width: 100%;
+}
+/* line 475, ../sass/styles.scss */
 .articles_column .articles .article_header {
   display: block;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
-  padding: .7em 0 0 2em;
+  padding: .7em .5em 0 1.5em;
   font-size: 1.3em;
   line-height: 1.3em;
 }
-/* line 474, ../sass/styles.scss */
+/* line 482, ../sass/styles.scss */
 .articles_column .articles .article_header:hover {
   color: white;
 }
 
-/* line 480, ../sass/styles.scss */
+/* line 488, ../sass/styles.scss */
 .articles li {
   color: #373737;
   font-size: 12px;
   display: inline-block;
-  padding: .5em .5em 0 5em;
+  padding: .5em .5em 0 2em;
   position: relative;
 }
-/* line 486, ../sass/styles.scss */
+/* line 494, ../sass/styles.scss */
 .articles li:after {
   content: "";
   position: absolute;
