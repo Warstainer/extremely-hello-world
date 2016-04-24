@@ -222,6 +222,7 @@
 	min-width: 510px;
 	height: 100%;
 	border-right: 15px solid $orange;
+	text-align: center;
 		.triangle {
 		position: absolute;
 		right: -23px;
@@ -237,20 +238,25 @@
 		position: absolute;
 		display: block;
 		color: white;
-		width: 25%;
+		height: 30%;
+		width: 30%;
 		min-width: 200px;
 		font-weight: 100;
-		font-size: .8em;
+		font-size: 1.1em;
 		border: 1px solid $dark-grey;
 		padding: 1em .5em 1em .7em;
 		line-height: 2em;
 		opacity: .8;
 		margin: 2em 0 0 2em;
 		transition: all .3s ease-in-out;
-		border-radius: 3px;
+		border-radius: 2em;
 		&:hover {
 			opacity: 1;
-			background-color: $dark-grey;}
+			color: black;
+			background: linear-gradient(to right, rgba(255,200,138,1) 0%, rgba(255,200,138,1) 38%, rgba(255,200,138,1) 41%, rgba(255,162,56,1) 90%);
+			font-weight: 900;
+			box-shadow: 4px 13px 44px 0px rgba(173,128,38,0.7);
+			}
 		}
 	}
 
@@ -278,9 +284,12 @@
 			border: none;
 			cursor: pointer;
 			font-size: 1.3em;
+			box-shadow: 0px 3px 10px 4px rgba(0,0,0,0.25);
+			transition: all .3s ease-in;
 			&:hover {
-				background: $grey;
+				background: linear-gradient(to right, rgba(255,200,138,1) 0%, rgba(255,200,138,1) 38%, rgba(255,200,138,1) 41%, rgba(255,162,56,1) 90%);
 				color: $orange;
+				box-shadow: 0px 3px 10px 4px rgba(247,194,104,1);
 			}
 		}
 

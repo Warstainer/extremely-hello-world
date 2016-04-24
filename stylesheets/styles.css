@@ -333,8 +333,9 @@ a {
   min-width: 510px;
   height: 100%;
   border-right: 15px solid #f26c4f;
+  text-align: center;
 }
-/* line 225, ../sass/styles.scss */
+/* line 226, ../sass/styles.scss */
 .picWrap .triangle {
   position: absolute;
   right: -23px;
@@ -345,30 +346,34 @@ a {
   border-left: 0.6em solid #f26c4f;
   border-bottom: .7em solid transparent;
 }
-/* line 236, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 .picWrap a {
   position: absolute;
   display: block;
   color: white;
-  width: 25%;
+  height: 30%;
+  width: 30%;
   min-width: 200px;
   font-weight: 100;
-  font-size: .8em;
+  font-size: 1.1em;
   border: 1px solid #373737;
   padding: 1em .5em 1em .7em;
   line-height: 2em;
   opacity: .8;
   margin: 2em 0 0 2em;
   transition: all .3s ease-in-out;
-  border-radius: 3px;
+  border-radius: 2em;
 }
-/* line 251, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 .picWrap a:hover {
   opacity: 1;
-  background-color: #373737;
+  color: black;
+  background: linear-gradient(to right, #ffc88a 0%, #ffc88a 38%, #ffc88a 41%, #ffa238 90%);
+  font-weight: 900;
+  box-shadow: 4px 13px 44px 0px rgba(173, 128, 38, 0.7);
 }
 
-/* line 258, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 .mainText {
   width: 30%;
   background: #373737;
@@ -382,7 +387,7 @@ a {
   flex-wrap: wrap;
   min-width: 250px;
 }
-/* line 270, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 .mainText .learnMore {
   margin: 0 auto;
   outline: none;
@@ -394,13 +399,16 @@ a {
   border: none;
   cursor: pointer;
   font-size: 1.3em;
+  box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease-in;
 }
-/* line 281, ../sass/styles.scss */
+/* line 289, ../sass/styles.scss */
 .mainText .learnMore:hover {
-  background: #474747;
+  background: linear-gradient(to right, #ffc88a 0%, #ffc88a 38%, #ffc88a 41%, #ffa238 90%);
   color: #f26c4f;
+  box-shadow: 0px 3px 10px 4px #f7c268;
 }
-/* line 287, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
 .mainText h2 {
   color: white;
   font-size: 1.3em;
@@ -408,20 +416,20 @@ a {
   text-align: center;
   width: 90%;
 }
-/* line 294, ../sass/styles.scss */
+/* line 303, ../sass/styles.scss */
 .mainText p {
   padding: 0 2em;
   text-align: center;
 }
 
-/* line 300, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 .cite {
   margin-top: .5em;
 }
 
 /*content section*/
 /*text*/
-/* line 307, ../sass/styles.scss */
+/* line 316, ../sass/styles.scss */
 .content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -435,7 +443,7 @@ a {
   height: 550px;
   min-width: 778px;
 }
-/* line 319, ../sass/styles.scss */
+/* line 328, ../sass/styles.scss */
 .content p {
   display: block;
   width: 33%;
@@ -447,7 +455,7 @@ a {
   line-height: 1.5em;
   color: #c0c0c0;
 }
-/* line 330, ../sass/styles.scss */
+/* line 339, ../sass/styles.scss */
 .content .articles {
   width: 33%;
   margin-top: 1em;
@@ -455,13 +463,13 @@ a {
 }
 
 /*content pictures*/
-/* line 340, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 .first {
   background: url(images/balloon.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 344, ../sass/styles.scss */
+/* line 353, ../sass/styles.scss */
 .first .triangle {
   position: absolute;
   right: 0;
@@ -474,14 +482,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 355, ../sass/styles.scss */
+/* line 364, ../sass/styles.scss */
 .first .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 361, ../sass/styles.scss */
+/* line 370, ../sass/styles.scss */
 .first .triangle .plus {
   position: absolute;
   width: 33px;
@@ -490,13 +498,13 @@ a {
   top: -80px;
 }
 
-/* line 370, ../sass/styles.scss */
+/* line 379, ../sass/styles.scss */
 .second {
   background: url(images/lego.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 374, ../sass/styles.scss */
+/* line 383, ../sass/styles.scss */
 .second .triangle {
   position: absolute;
   right: 0;
@@ -509,14 +517,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 385, ../sass/styles.scss */
+/* line 394, ../sass/styles.scss */
 .second .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 391, ../sass/styles.scss */
+/* line 400, ../sass/styles.scss */
 .second .triangle .plus {
   position: absolute;
   width: 33px;
@@ -525,13 +533,13 @@ a {
   top: -80px;
 }
 
-/* line 400, ../sass/styles.scss */
+/* line 409, ../sass/styles.scss */
 .third {
   background: url(images/lake.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 404, ../sass/styles.scss */
+/* line 413, ../sass/styles.scss */
 .third .triangle {
   position: absolute;
   right: 0;
@@ -544,14 +552,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 415, ../sass/styles.scss */
+/* line 424, ../sass/styles.scss */
 .third .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 421, ../sass/styles.scss */
+/* line 430, ../sass/styles.scss */
 .third .triangle .plus {
   position: absolute;
   width: 33px;
@@ -560,7 +568,7 @@ a {
   top: -80px;
 }
 
-/* line 431, ../sass/styles.scss */
+/* line 440, ../sass/styles.scss */
 .headline {
   font-weight: 700;
   font-size: 1.3em;
@@ -568,7 +576,7 @@ a {
 }
 
 /*News and Articles*/
-/* line 438, ../sass/styles.scss */
+/* line 447, ../sass/styles.scss */
 .news_and_articles {
   margin-right: 0;
   min-width: 650px;
@@ -576,18 +584,18 @@ a {
   width: 100%;
 }
 
-/* line 444, ../sass/styles.scss */
+/* line 453, ../sass/styles.scss */
 .articles_column {
   width: 65%;
   display: block;
   height: 100%;
   float: left;
 }
-/* line 449, ../sass/styles.scss */
+/* line 458, ../sass/styles.scss */
 .articles_column:first-child {
   margin-top: -1em;
 }
-/* line 452, ../sass/styles.scss */
+/* line 461, ../sass/styles.scss */
 .articles_column .articles {
   display: block;
   width: 100%;
@@ -598,14 +606,14 @@ a {
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
-/* line 461, ../sass/styles.scss */
+/* line 470, ../sass/styles.scss */
 .articles_column .articles:hover {
   background: #f26c4f;
   color: white;
   height: 175px;
   border-right: 5px solid #373737;
 }
-/* line 467, ../sass/styles.scss */
+/* line 476, ../sass/styles.scss */
 .articles_column .articles p {
   display: block;
   color: white;
@@ -614,11 +622,11 @@ a {
   width: 80%;
   height: 100%;
 }
-/* line 475, ../sass/styles.scss */
+/* line 484, ../sass/styles.scss */
 .articles_column .articles ul {
   width: 100%;
 }
-/* line 478, ../sass/styles.scss */
+/* line 487, ../sass/styles.scss */
 .articles_column .articles .article_header {
   display: block;
   /*text-transform: uppercase;*/
@@ -627,12 +635,12 @@ a {
   font-size: 1.3em;
   line-height: 1.3em;
 }
-/* line 485, ../sass/styles.scss */
+/* line 494, ../sass/styles.scss */
 .articles_column .articles .article_header:hover {
   color: white;
 }
 
-/* line 491, ../sass/styles.scss */
+/* line 500, ../sass/styles.scss */
 .articles li {
   color: #373737;
   font-size: 12px;
@@ -640,7 +648,7 @@ a {
   padding: .5em .5em 0 2em;
   position: relative;
 }
-/* line 497, ../sass/styles.scss */
+/* line 506, ../sass/styles.scss */
 .articles li:after {
   content: "";
   position: absolute;
@@ -652,7 +660,7 @@ a {
 }
 
 /*News Right Column*/
-/* line 510, ../sass/styles.scss */
+/* line 519, ../sass/styles.scss */
 .news_right_column {
   float: right;
   display: block;
@@ -661,7 +669,7 @@ a {
   background: #ebebeb;
   border: 1px solid red;
 }
-/* line 517, ../sass/styles.scss */
+/* line 526, ../sass/styles.scss */
 .news_right_column .news_with_image {
   background: url(images/table.jpg) center no-repeat;
   background-size: cover;
@@ -671,7 +679,7 @@ a {
   text-align: center;
   cursor: pointer;
 }
-/* line 525, ../sass/styles.scss */
+/* line 534, ../sass/styles.scss */
 .news_right_column .news_with_image p {
   display: block;
   position: absolute;
@@ -683,18 +691,18 @@ a {
   line-height: 1.3em;
   opacity: .6;
 }
-/* line 535, ../sass/styles.scss */
+/* line 544, ../sass/styles.scss */
 .news_right_column .news_with_image p:hover {
   opacity: .8;
 }
-/* line 538, ../sass/styles.scss */
+/* line 547, ../sass/styles.scss */
 .news_right_column .news_with_image p .news_header {
   font-size: 1.3em;
   padding-bottom: 2em;
   display: block;
   color: white;
 }
-/* line 547, ../sass/styles.scss */
+/* line 556, ../sass/styles.scss */
 .news_right_column .newsBox {
   width: 100%;
   height: 150px;
@@ -702,7 +710,7 @@ a {
   padding-top: 2em;
   border-bottom: 1px solid #d0d0d0;
 }
-/* line 553, ../sass/styles.scss */
+/* line 562, ../sass/styles.scss */
 .news_right_column .newsBox h3 {
   font-size: 1.3em;
   padding-bottom: 2em;
