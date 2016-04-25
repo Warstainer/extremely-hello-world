@@ -16,3 +16,8 @@ body {
 a {
 	text-decoration: none;
 }
+.cfx:after {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -238,24 +238,24 @@
 		position: absolute;
 		display: block;
 		color: white;
-		height: 30%;
+		height: 27%;
 		width: 30%;
-		min-width: 200px;
+		min-width: 245px;
 		font-weight: 100;
-		font-size: 1.1em;
+		font-size: 1.15em;
 		border: 1px solid $dark-grey;
 		padding: 1em .5em 1em .7em;
-		line-height: 2em;
+		line-height: 2.1em;
 		opacity: .8;
 		margin: 2em 0 0 2em;
-		transition: all .3s ease-in-out;
+		transition: all .1s ease-in-out;
 		border-radius: 2em;
 		&:hover {
 			opacity: 1;
-			color: black;
-			background: linear-gradient(to right, rgba(255,200,138,1) 0%, rgba(255,200,138,1) 38%, rgba(255,200,138,1) 41%, rgba(255,162,56,1) 90%);
+			color: $black;
+			background: white; 
 			font-weight: 900;
-			box-shadow: 4px 13px 44px 0px rgba(173,128,38,0.7);
+			box-shadow: 4px 7px 14px 0px rgba(255,255,255,0.6);
 			}
 		}
 	}
@@ -325,7 +325,8 @@
 	justify-content: space-between;
 	height: 550px;
 	min-width: 778px;
-	p {
+	a {
+		display: block;
 		display: block;
 		width: 33%;
 		height: 200px;
@@ -335,6 +336,14 @@
 		background: white;
 		line-height: 1.5em;
 		color: $text-grey;
+		&:hover {
+			background: $dark-grey;
+			color: white;
+			border: .5px solid $light-grey;
+			p .headline {
+				color: white;
+			}
+		}
 	}
 	.articles {
 		width: 33%;
@@ -446,7 +455,7 @@
 						/*News and Articles*/
 .news_and_articles {
 	margin-right: 0;
-	min-width: 650px;
+	min-width: 850px;
 	display: inline-block;
 	width: 100%;
 }
@@ -523,7 +532,8 @@
 	height: 900px;
 	background: $bg-color;
 	border: 1px solid red;
-	.news_with_image {
+	min-width: 290px;
+		.news_with_image {
 		background: url(images/table.jpg) center no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -555,15 +565,39 @@
 
 	.newsBox {
 		width: 100%;
-		height: 150px;
-		text-align: center;
-		padding-top: 2em;
+		height: 160px;
+		padding: 1em 0 0 1em;
 		border-bottom: 1px solid $lightest-grey;
+		line-height: 1.3em;
 		h3 {
 			font-size: 1.3em;
-			padding-bottom: 2em;
+			padding: 0 1em 1em 0;
 			display: block;
-
 		}
+		.info {
+			text-align: left;
+			padding: 2em;
+			p {
+			display: inline-block;
+			}
+		}
+	}
+}
+
+.date {
+	display: block;
+	font-size: 14px;
+	color: $light-grey;	
+	font-style: italic;
+	padding: 0 0 10px 10px;
+	line-height: 2em;
+	position: relative;
+	&:before {
+		position: absolute;
+		content: "+";
+		font-size: 25px;
+		font-style: normal;
+		left: -10px;
+		top: -2px;
 	}
 }
