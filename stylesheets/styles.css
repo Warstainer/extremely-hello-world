@@ -764,3 +764,24 @@ a {
   left: -10px;
   top: -2px;
 }
+
+/*news_right_menu*/
+/* line 610, ../sass/styles.scss */
+.news_nav .news_right_menu {
+  height: 50px;
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-left: 2px solid #767676;
+  box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 618, ../sass/styles.scss */
+.news_nav .news_right_menu a {
+  font-size: 1.3em;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: .7em 0 1em 3em;
+}
