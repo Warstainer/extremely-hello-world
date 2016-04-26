@@ -654,8 +654,35 @@ a {
 .articles_column .articles .article_header:hover {
   color: white;
 }
+/* line 505, ../sass/styles.scss */
+.articles_column .image_for_box {
+  background: url(images/creative.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+/* line 511, ../sass/styles.scss */
+.articles_column .text_for_box {
+  width: 100%;
+  height: 200px;
+  background: white;
+}
+/* line 515, ../sass/styles.scss */
+.articles_column .text_for_box h2 {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+/* line 522, ../sass/styles.scss */
+.articles_column .text_for_box p {
+  color: #767676;
+  padding: 1em 1.5em 1em 1.5em;
+  line-height: 1.4em;
+}
 
-/* line 506, ../sass/styles.scss */
+/* line 529, ../sass/styles.scss */
 .articles li {
   color: #373737;
   font-size: 12px;
@@ -663,7 +690,7 @@ a {
   padding: .5em .5em 0 2em;
   position: relative;
 }
-/* line 512, ../sass/styles.scss */
+/* line 535, ../sass/styles.scss */
 .articles li:after {
   content: "";
   position: absolute;
@@ -674,7 +701,7 @@ a {
   background: #767676;
 }
 
-/* line 523, ../sass/styles.scss */
+/* line 546, ../sass/styles.scss */
 .read_more {
   width: 100%;
   height: 100px;
@@ -683,14 +710,15 @@ a {
   transition: all .2s ease-in-out;
   text-align: center;
   padding-top: 2em;
+  border-bottom: 1px solid #d0d0d0;
 }
-/* line 531, ../sass/styles.scss */
+/* line 555, ../sass/styles.scss */
 .read_more .read_more_wrapper {
   width: 150px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 535, ../sass/styles.scss */
+/* line 559, ../sass/styles.scss */
 .read_more .read_more_wrapper p {
   margin: 0 auto;
   text-transform: uppercase;
@@ -700,17 +728,16 @@ a {
 }
 
 /*News Right Column*/
-/* line 548, ../sass/styles.scss */
+/* line 572, ../sass/styles.scss */
 .news_right_column {
   float: right;
   display: block;
   width: 32%;
   height: 900px;
   background: #ebebeb;
-  border: 1px solid red;
   min-width: 290px;
 }
-/* line 556, ../sass/styles.scss */
+/* line 579, ../sass/styles.scss */
 .news_right_column .news_with_image {
   background: url(images/table.jpg) center no-repeat;
   background-size: cover;
@@ -720,7 +747,7 @@ a {
   text-align: center;
   cursor: pointer;
 }
-/* line 564, ../sass/styles.scss */
+/* line 587, ../sass/styles.scss */
 .news_right_column .news_with_image p {
   display: block;
   position: absolute;
@@ -732,18 +759,18 @@ a {
   line-height: 1.3em;
   opacity: .6;
 }
-/* line 574, ../sass/styles.scss */
+/* line 597, ../sass/styles.scss */
 .news_right_column .news_with_image p:hover {
   opacity: .8;
 }
-/* line 577, ../sass/styles.scss */
+/* line 600, ../sass/styles.scss */
 .news_right_column .news_with_image p .news_header {
   font-size: 1.3em;
   padding-bottom: 2em;
   display: block;
   color: white;
 }
-/* line 586, ../sass/styles.scss */
+/* line 609, ../sass/styles.scss */
 .news_right_column .newsBox {
   width: 100%;
   height: 160px;
@@ -751,23 +778,23 @@ a {
   border-bottom: 1px solid #d0d0d0;
   line-height: 1.3em;
 }
-/* line 592, ../sass/styles.scss */
+/* line 615, ../sass/styles.scss */
 .news_right_column .newsBox h3 {
   font-size: 1.3em;
   padding: 0 1em 1em 0;
   display: block;
 }
-/* line 597, ../sass/styles.scss */
+/* line 620, ../sass/styles.scss */
 .news_right_column .newsBox .info {
   text-align: left;
   padding: 2em;
 }
-/* line 600, ../sass/styles.scss */
+/* line 623, ../sass/styles.scss */
 .news_right_column .newsBox .info p {
   display: inline-block;
 }
 
-/* line 607, ../sass/styles.scss */
+/* line 630, ../sass/styles.scss */
 .date {
   display: block;
   font-size: 14px;
@@ -777,7 +804,7 @@ a {
   line-height: 2em;
   position: relative;
 }
-/* line 615, ../sass/styles.scss */
+/* line 638, ../sass/styles.scss */
 .date:before {
   position: absolute;
   content: "+";
@@ -788,11 +815,11 @@ a {
 }
 
 /*news_right_menu*/
-/* line 628, ../sass/styles.scss */
+/* line 651, ../sass/styles.scss */
 .news_nav {
   margin: 0;
 }
-/* line 630, ../sass/styles.scss */
+/* line 653, ../sass/styles.scss */
 .news_nav .news_right_menu {
   height: 50px;
   width: 100%;
@@ -803,11 +830,11 @@ a {
   border-right: 2px solid #767676;
   box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
 }
-/* line 639, ../sass/styles.scss */
+/* line 662, ../sass/styles.scss */
 .news_nav .news_right_menu:hover {
   box-shadow: none;
 }
-/* line 642, ../sass/styles.scss */
+/* line 665, ../sass/styles.scss */
 .news_nav .news_right_menu a {
   font-size: 1.3em;
   color: black;
