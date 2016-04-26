@@ -374,13 +374,10 @@ a {
 /* line 253, ../sass/styles.scss */
 .picWrap a:hover {
   opacity: 1;
-  color: #000000;
-  background: white;
-  font-weight: 900;
-  box-shadow: 4px 7px 14px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 7px 14px 0px rgba(255, 255, 255, 0.6);
 }
 
-/* line 264, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 .mainText {
   width: 30%;
   background: #373737;
@@ -394,7 +391,7 @@ a {
   flex-wrap: wrap;
   min-width: 250px;
 }
-/* line 276, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 .mainText .learnMore {
   margin: 0 auto;
   outline: none;
@@ -409,13 +406,13 @@ a {
   box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.25);
   transition: all .3s ease-in;
 }
-/* line 289, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .mainText .learnMore:hover {
   background: linear-gradient(to right, #ffc88a 0%, #ffc88a 38%, #ffc88a 41%, #ffa238 90%);
   color: #f26c4f;
   box-shadow: 0px 3px 10px 4px #f7c268;
 }
-/* line 296, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 .mainText h2 {
   color: white;
   font-size: 1.3em;
@@ -423,20 +420,20 @@ a {
   text-align: center;
   width: 90%;
 }
-/* line 303, ../sass/styles.scss */
+/* line 300, ../sass/styles.scss */
 .mainText p {
   padding: 0 2em;
   text-align: center;
 }
 
-/* line 309, ../sass/styles.scss */
+/* line 306, ../sass/styles.scss */
 .cite {
   margin-top: .5em;
 }
 
 /*content section*/
 /*text*/
-/* line 316, ../sass/styles.scss */
+/* line 313, ../sass/styles.scss */
 .content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -450,7 +447,7 @@ a {
   height: 550px;
   min-width: 778px;
 }
-/* line 328, ../sass/styles.scss */
+/* line 325, ../sass/styles.scss */
 .content a {
   display: block;
   display: block;
@@ -463,17 +460,17 @@ a {
   line-height: 1.5em;
   color: #c0c0c0;
 }
-/* line 339, ../sass/styles.scss */
+/* line 336, ../sass/styles.scss */
 .content a:hover {
   background: #373737;
   color: white;
   border: 0.5px solid #767676;
 }
-/* line 343, ../sass/styles.scss */
+/* line 340, ../sass/styles.scss */
 .content a:hover p .headline {
   color: white;
 }
-/* line 348, ../sass/styles.scss */
+/* line 345, ../sass/styles.scss */
 .content .articles {
   width: 33%;
   margin-top: 1em;
@@ -481,13 +478,13 @@ a {
 }
 
 /*content pictures*/
-/* line 358, ../sass/styles.scss */
+/* line 355, ../sass/styles.scss */
 .first {
   background: url(images/balloon.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 362, ../sass/styles.scss */
+/* line 359, ../sass/styles.scss */
 .first .triangle {
   position: absolute;
   right: 0;
@@ -500,14 +497,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 373, ../sass/styles.scss */
+/* line 370, ../sass/styles.scss */
 .first .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 379, ../sass/styles.scss */
+/* line 376, ../sass/styles.scss */
 .first .triangle .plus {
   position: absolute;
   width: 33px;
@@ -516,13 +513,13 @@ a {
   top: -80px;
 }
 
-/* line 388, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .second {
   background: url(images/lego.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 392, ../sass/styles.scss */
+/* line 389, ../sass/styles.scss */
 .second .triangle {
   position: absolute;
   right: 0;
@@ -535,14 +532,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 403, ../sass/styles.scss */
+/* line 400, ../sass/styles.scss */
 .second .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 409, ../sass/styles.scss */
+/* line 406, ../sass/styles.scss */
 .second .triangle .plus {
   position: absolute;
   width: 33px;
@@ -551,13 +548,13 @@ a {
   top: -80px;
 }
 
-/* line 418, ../sass/styles.scss */
+/* line 415, ../sass/styles.scss */
 .third {
   background: url(images/lake.jpg) center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 422, ../sass/styles.scss */
+/* line 419, ../sass/styles.scss */
 .third .triangle {
   position: absolute;
   right: 0;
@@ -570,14 +567,14 @@ a {
   opacity: .9;
   transition: all .25s ease-in-out;
 }
-/* line 433, ../sass/styles.scss */
+/* line 430, ../sass/styles.scss */
 .third .triangle:hover {
   border-top: 5.7em solid #000000;
   border-left: 5em solid transparent;
   border-bottom: 1em solid transparent;
   opacity: .6;
 }
-/* line 439, ../sass/styles.scss */
+/* line 436, ../sass/styles.scss */
 .third .triangle .plus {
   position: absolute;
   width: 33px;
@@ -586,7 +583,7 @@ a {
   top: -80px;
 }
 
-/* line 449, ../sass/styles.scss */
+/* line 446, ../sass/styles.scss */
 .headline {
   font-weight: 700;
   font-size: 1.3em;
@@ -594,7 +591,7 @@ a {
 }
 
 /*News and Articles*/
-/* line 456, ../sass/styles.scss */
+/* line 453, ../sass/styles.scss */
 .news_and_articles {
   margin-right: 0;
   min-width: 850px;
@@ -602,18 +599,18 @@ a {
   width: 100%;
 }
 
-/* line 462, ../sass/styles.scss */
+/* line 459, ../sass/styles.scss */
 .articles_column {
   width: 65%;
   display: block;
   height: 100%;
   float: left;
 }
-/* line 467, ../sass/styles.scss */
+/* line 464, ../sass/styles.scss */
 .articles_column:first-child {
   margin-top: -1em;
 }
-/* line 470, ../sass/styles.scss */
+/* line 467, ../sass/styles.scss */
 .articles_column .articles {
   display: block;
   width: 100%;
@@ -623,15 +620,16 @@ a {
   overflow: hidden;
   transition: all .2s ease-in-out;
   cursor: pointer;
+  box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
 }
-/* line 479, ../sass/styles.scss */
+/* line 477, ../sass/styles.scss */
 .articles_column .articles:hover {
   background: #f26c4f;
   color: white;
   height: 175px;
   border-right: 5px solid #373737;
 }
-/* line 485, ../sass/styles.scss */
+/* line 483, ../sass/styles.scss */
 .articles_column .articles p {
   display: block;
   color: white;
@@ -640,25 +638,24 @@ a {
   width: 80%;
   height: 100%;
 }
-/* line 493, ../sass/styles.scss */
+/* line 491, ../sass/styles.scss */
 .articles_column .articles ul {
   width: 100%;
 }
-/* line 496, ../sass/styles.scss */
+/* line 494, ../sass/styles.scss */
 .articles_column .articles .article_header {
   display: block;
-  /*text-transform: uppercase;*/
   font-weight: 700;
   padding: .7em .5em 0 1.5em;
   font-size: 1.3em;
   line-height: 1.3em;
 }
-/* line 503, ../sass/styles.scss */
+/* line 500, ../sass/styles.scss */
 .articles_column .articles .article_header:hover {
   color: white;
 }
 
-/* line 509, ../sass/styles.scss */
+/* line 506, ../sass/styles.scss */
 .articles li {
   color: #373737;
   font-size: 12px;
@@ -666,7 +663,7 @@ a {
   padding: .5em .5em 0 2em;
   position: relative;
 }
-/* line 515, ../sass/styles.scss */
+/* line 512, ../sass/styles.scss */
 .articles li:after {
   content: "";
   position: absolute;
@@ -677,8 +674,33 @@ a {
   background: #767676;
 }
 
+/* line 523, ../sass/styles.scss */
+.read_more {
+  width: 100%;
+  height: 100px;
+  margin: 1em 0 1em 0;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  padding-top: 2em;
+}
+/* line 531, ../sass/styles.scss */
+.read_more .read_more_wrapper {
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 535, ../sass/styles.scss */
+.read_more .read_more_wrapper p {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: #c0c0c0;
+  padding-bottom: 1em;
+}
+
 /*News Right Column*/
-/* line 528, ../sass/styles.scss */
+/* line 548, ../sass/styles.scss */
 .news_right_column {
   float: right;
   display: block;
@@ -688,7 +710,7 @@ a {
   border: 1px solid red;
   min-width: 290px;
 }
-/* line 536, ../sass/styles.scss */
+/* line 556, ../sass/styles.scss */
 .news_right_column .news_with_image {
   background: url(images/table.jpg) center no-repeat;
   background-size: cover;
@@ -698,7 +720,7 @@ a {
   text-align: center;
   cursor: pointer;
 }
-/* line 544, ../sass/styles.scss */
+/* line 564, ../sass/styles.scss */
 .news_right_column .news_with_image p {
   display: block;
   position: absolute;
@@ -710,18 +732,18 @@ a {
   line-height: 1.3em;
   opacity: .6;
 }
-/* line 554, ../sass/styles.scss */
+/* line 574, ../sass/styles.scss */
 .news_right_column .news_with_image p:hover {
   opacity: .8;
 }
-/* line 557, ../sass/styles.scss */
+/* line 577, ../sass/styles.scss */
 .news_right_column .news_with_image p .news_header {
   font-size: 1.3em;
   padding-bottom: 2em;
   display: block;
   color: white;
 }
-/* line 566, ../sass/styles.scss */
+/* line 586, ../sass/styles.scss */
 .news_right_column .newsBox {
   width: 100%;
   height: 160px;
@@ -729,23 +751,23 @@ a {
   border-bottom: 1px solid #d0d0d0;
   line-height: 1.3em;
 }
-/* line 572, ../sass/styles.scss */
+/* line 592, ../sass/styles.scss */
 .news_right_column .newsBox h3 {
   font-size: 1.3em;
   padding: 0 1em 1em 0;
   display: block;
 }
-/* line 577, ../sass/styles.scss */
+/* line 597, ../sass/styles.scss */
 .news_right_column .newsBox .info {
   text-align: left;
   padding: 2em;
 }
-/* line 580, ../sass/styles.scss */
+/* line 600, ../sass/styles.scss */
 .news_right_column .newsBox .info p {
   display: inline-block;
 }
 
-/* line 587, ../sass/styles.scss */
+/* line 607, ../sass/styles.scss */
 .date {
   display: block;
   font-size: 14px;
@@ -755,7 +777,7 @@ a {
   line-height: 2em;
   position: relative;
 }
-/* line 595, ../sass/styles.scss */
+/* line 615, ../sass/styles.scss */
 .date:before {
   position: absolute;
   content: "+";
@@ -766,7 +788,11 @@ a {
 }
 
 /*news_right_menu*/
-/* line 610, ../sass/styles.scss */
+/* line 628, ../sass/styles.scss */
+.news_nav {
+  margin: 0;
+}
+/* line 630, ../sass/styles.scss */
 .news_nav .news_right_menu {
   height: 50px;
   width: 100%;
@@ -774,9 +800,14 @@ a {
   margin: 0 auto;
   margin-top: 5px;
   border-left: 2px solid #767676;
+  border-right: 2px solid #767676;
   box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
 }
-/* line 618, ../sass/styles.scss */
+/* line 639, ../sass/styles.scss */
+.news_nav .news_right_menu:hover {
+  box-shadow: none;
+}
+/* line 642, ../sass/styles.scss */
 .news_nav .news_right_menu a {
   font-size: 1.3em;
   color: black;
