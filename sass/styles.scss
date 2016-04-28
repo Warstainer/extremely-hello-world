@@ -8,7 +8,7 @@
 	/*	Header navigation	*/
 	/*		 				*/
 
-#logo {
+#logo, #logo_footer {
 	display: inline-block;
 	width: 100%;
 	min-width: 920px;
@@ -659,6 +659,7 @@
 		border-left: 2px solid $light-grey;
 		border-right: 2px solid $light-grey;
 		box-shadow:2px 5px 4px 3px rgba(0,0,0,0.2);
+		transition: all .2s ease-in;
 		&:hover {
 			box-shadow: none;
 		};
@@ -671,5 +672,45 @@
 			padding: .7em 0 1em 3em; 
 			} 
 	}
+}
+
+
+
+					/*FOOOTER STARTS*/
+
+
+
+.footer {
+	background: $dark-grey;
+	
+	.footer_menu {
+	position: relative;
+	background: $grey;
+	text-align: center;
+	li {
+		position: relative;
+		display: inline-block;
+		padding: 4.4em 2.2em 4.4em 0;
+		&:after {
+			content:"";
+			position: absolute;
+			right: 15px;
+			top: 68px;
+			height: 20px;
+			width: 1px;
+			background: $light-grey;
+			}
+		a {
+			color: white;
+			&:hover {
+			border-bottom: 5px solid $orange;
+			padding-bottom: 1em;
+				}
+			}
+		}
+	}
+}
+#nav_footer {
+	margin: 0 auto;
 }
 
